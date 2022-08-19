@@ -1,1 +1,106 @@
+24913406679707
+rlib_ic
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
 0
+48
+48
+rlib_ic
+QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+59
+33
+rlib_ic
+QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002164B.pdf#page=68), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+42
+33
+rlib_ic
+QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm
+QFN, 32 Pin (http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf#page=468), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+42
+33
+rlib_ic
+QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm
+QFN, 48 Pin (http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf#page=67), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+58
+49
+rlib_ic
+QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm
+QFN, 48 Pin (https://www.onsemi.com/pub/Collateral/485BA.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+58
+49
+rlib_ic
+QFN-88_EP_10x10_Pitch0.4mm
+
+
+0
+104
+89
+rlib_ic
+QFN40P1000X1000X90-89N
+
+
+0
+89
+89
+rlib_ic
+QFN88
+
+
+0
+89
+89
+rlib_ic
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+rlib_ic
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+rlib_ic
+SOP-8_3.9x4.9mm_P1.27mm
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+rlib_ic
+SSOP-28_5.3x10.2mm_P0.65mm
+28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+28
+28
+rlib_ic
+TSSOP-28_6.1x9.7mm_P0.65mm
+TSSOP, 28 Pin (JEDEC MO-153 Var DB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+28
+28
+rlib_ic
+UQFN-48-1EP_6x6mm_P0.4mm_EP4.45x4.45mm
+UQFN, 48 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=347), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
+0
+58
+49

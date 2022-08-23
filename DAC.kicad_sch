@@ -1906,7 +1906,7 @@
     (uuid fd59f7fc-d8b9-4bb3-8bd7-998ea59a3864)
   )
 
-  (text "ic address is 0011010 " (at 38.1 137.16 0)
+  (text "ic address is 0011010 " (at 38.1 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 58c374a5-9319-4b30-bf6d-b37c31661276)
   )

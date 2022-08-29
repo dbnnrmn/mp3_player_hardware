@@ -333,6 +333,7 @@
     "pinned_symbol_libs": [
       "rlib_connectors",
       "rlib_ic",
+      "rlib_lcd",
       "rlib_passive",
       "rlib_power"
     ]

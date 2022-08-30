@@ -1,4 +1,4 @@
-20297619521515113
+20305923968558899
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85777,6 +85777,13 @@ UQFN NoLead
 0
 58
 49
+rlib_power
+RT6150AGQW
+
+
+0
+11
+11
 rlib_power
 SOT-23-5
 SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py

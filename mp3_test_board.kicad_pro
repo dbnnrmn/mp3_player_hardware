@@ -329,8 +329,14 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "rlib_buttons",
+      "rlib_connectors",
+      "rlib_ic",
+      "rlib_power"
+    ],
     "pinned_symbol_libs": [
+      "rlib_buttons",
       "rlib_connectors",
       "rlib_ic",
       "rlib_lcd",

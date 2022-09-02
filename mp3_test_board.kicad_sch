@@ -325,6 +325,18 @@
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/c0551d58-c7c7-4927-9c37-55aa6e17d735"
       (reference "#PWR0191") (unit 1) (value "GND") (footprint "")
     )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/cda274ab-4952-4f19-9c21-bd3fee7a8750"
+      (reference "#PWR0192") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/89b6d971-3474-4432-9483-fb4cee532839"
+      (reference "#PWR0193") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/086a1c45-d415-40bc-a319-32f829f33b74"
+      (reference "#PWR0194") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/5f29b257-e94c-4beb-9f29-a6d729a34377"
+      (reference "#PWR0195") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/ee67da40-1ebe-4920-a137-523a8361865b"
       (reference "C1") (unit 1) (value "C") (footprint "")
     )
@@ -562,6 +574,12 @@
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/8bcd900b-fc47-487b-88a0-d37a426a168e"
       (reference "JP1") (unit 1) (value "SolderJumper_3_Open") (footprint "")
     )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/578ef156-7b7f-4598-967b-a2efaac510c1"
+      (reference "JP2") (unit 1) (value "Reset") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/4549d397-a48a-4467-9da6-71d4dbc8212b"
+      (reference "JP3") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/4d1bc88c-aa55-4fa5-8f49-cd9be9467e6f"
       (reference "L1") (unit 1) (value "L") (footprint "")
     )
@@ -743,28 +761,28 @@
       (reference "R47") (unit 1) (value "R") (footprint "")
     )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/34008909-d15a-432e-8a83-89239de5595a"
-      (reference "SW1") (unit 1) (value "KLS7-TS3606") (footprint "rlib_buttons:TS-1010-X-X")
+      (reference "SW1") (unit 1) (value "TS-1010-C-A") (footprint "rlib_buttons:TS-1010-X-X")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/4d09ef06-36ea-4e5f-822d-4e23b8d96da9"
-      (reference "SW2") (unit 1) (value "TS-1157-X-A") (footprint "rclib_buttons:TS-1157-X-A")
+      (reference "SW2") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/1056e97f-1b11-45e8-af12-b3d441c2b63a"
-      (reference "SW3") (unit 1) (value "TS-1157-X-A") (footprint "rclib_buttons:TS-1157-X-A")
+      (reference "SW3") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/45563a1f-6f49-4353-a9d0-35f08f2d28c7"
-      (reference "SW4") (unit 1) (value "TS-1157-X-A") (footprint "rclib_buttons:TS-1157-X-A")
+      (reference "SW4") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/9dffb704-c99e-40fd-9514-5a5b714504ad"
-      (reference "SW5") (unit 1) (value "TS-1157-X-A") (footprint "rclib_buttons:TS-1157-X-A")
+      (reference "SW5") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/78ee0707-7b4d-4284-9426-ac754822fcd0"
-      (reference "SW6") (unit 1) (value "TS-1157-X-A") (footprint "rclib_buttons:TS-1157-X-A")
+      (reference "SW6") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/d733a823-5583-4932-bcb2-35c1a7c4c257"
-      (reference "SW7") (unit 1) (value "KLS7-TS3606") (footprint "rlib_buttons:TS-1010-X-X")
+      (reference "SW7") (unit 1) (value "TS-1010-C-A") (footprint "rlib_buttons:TS-1010-X-X")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/13af613d-938c-477e-92d8-fc3ac7d70bd4"
-      (reference "SW8") (unit 1) (value "KLS7-TS3606") (footprint "rlib_buttons:TS-1010-X-X")
+      (reference "SW8") (unit 1) (value "TS-1010-C-A") (footprint "rlib_buttons:TS-1010-X-X")
     )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/c6e4eb73-688e-4be1-9b7c-68677c2da41c"
       (reference "U1") (unit 1) (value "RT5750A") (footprint "rlib_power:SOT-23-5")
@@ -814,8 +832,8 @@
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/de4df36a-81e9-44f3-9667-b1ed7f889dfd"
       (reference "U12") (unit 1) (value "W25Q128JVSIQ") (footprint "rlib_ic:SOIC-8_5.23x5.23mm_P1.27mm")
     )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/b29d6647-5ab7-4a85-8614-154c8634e585"
-      (reference "Y1") (unit 1) (value "24M") (footprint "")
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/064e1b76-24d1-4254-9708-33fdba07e7fa"
+      (reference "Y1") (unit 1) (value "Crystal_GND24") (footprint "rlib_crystals:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm")
     )
   )
 )

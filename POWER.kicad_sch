@@ -3419,7 +3419,7 @@
     (property "Reference" "SW1" (id 0) (at 124.46 78.7399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "KLS7-TS3606" (id 1) (at 124.46 81.2799 90)
+    (property "Value" "TS-1010-C-A" (id 1) (at 124.46 81.2799 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "rlib_buttons:TS-1010-X-X" (id 2) (at 115.57 78.74 0)
@@ -4360,7 +4360,7 @@
   )
 
   (symbol (lib_id "rlib_passive:R") (at 234.95 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid c516f6ec-36ac-4b48-b23f-b09de4e0f527)
     (property "Reference" "R9" (id 0) (at 237.49 85.0899 0)
       (effects (font (size 1.27 1.27)) (justify left))

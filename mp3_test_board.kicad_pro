@@ -338,6 +338,7 @@
     "pinned_symbol_libs": [
       "rlib_buttons",
       "rlib_connectors",
+      "rlib_crystal",
       "rlib_ic",
       "rlib_lcd",
       "rlib_passive",

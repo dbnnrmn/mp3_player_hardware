@@ -2592,7 +2592,7 @@
     (uuid 70d39fec-44ce-4d2e-8442-7a88ed5f8474)
     (property "Reference" "R45" (id 0) (at 29.21 81.28 90))
     (property "Value" "R" (id 1) (at 29.21 83.82 90))
-    (property "Footprint" "" (id 2) (at 29.21 89.408 90)
+    (property "Footprint" "rlib_passive:R_0603_1608Metric" (id 2) (at 29.21 89.408 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.21 87.63 0)

@@ -784,20 +784,20 @@
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/34008909-d15a-432e-8a83-89239de5595a"
       (reference "SW1") (unit 1) (value "TS-1010-C-A") (footprint "rlib_buttons:TS-1010-X-X")
     )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/4d09ef06-36ea-4e5f-822d-4e23b8d96da9"
-      (reference "SW2") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
-    )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/1056e97f-1b11-45e8-af12-b3d441c2b63a"
-      (reference "SW3") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
-    )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/45563a1f-6f49-4353-a9d0-35f08f2d28c7"
-      (reference "SW4") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
-    )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/9dffb704-c99e-40fd-9514-5a5b714504ad"
-      (reference "SW5") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
+      (reference "SW2") (unit 1) (value "TS-1157-X-F") (footprint "rlib_buttons:TS-1157-X-F")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/78ee0707-7b4d-4284-9426-ac754822fcd0"
-      (reference "SW6") (unit 1) (value "TS-1157-X-A") (footprint "rlib_buttons:TS-1157-X-A")
+      (reference "SW3") (unit 1) (value "TS-1157-X-F") (footprint "rlib_buttons:TS-1157-X-F")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/45563a1f-6f49-4353-a9d0-35f08f2d28c7"
+      (reference "SW4") (unit 1) (value "TS-1157-X-F") (footprint "rlib_buttons:TS-1157-X-F")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/9dffb704-c99e-40fd-9514-5a5b714504ad"
+      (reference "SW5") (unit 1) (value "TS-1157-X-F") (footprint "rlib_buttons:TS-1157-X-F")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/4d09ef06-36ea-4e5f-822d-4e23b8d96da9"
+      (reference "SW6") (unit 1) (value "TS-1157-X-F") (footprint "rlib_buttons:TS-1157-X-F")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/d733a823-5583-4932-bcb2-35c1a7c4c257"
       (reference "SW7") (unit 1) (value "TS-1010-C-A") (footprint "rlib_buttons:TS-1010-X-X")

@@ -200,6 +200,22 @@
 	status = "okay";
 };
 
+&i2s0{
+	status = "okay";
+}
+
+sound_i2s {
+		copmatible="simple-audio-card";
+		simple-audio,name="i2s-master";
+		simple-audio-card,format="i2s";
+		simple-audio-card,mclk-fs=<256>;
+		status="okay";
+
+		simple-audio-card,cpu{
+			sound-dai=<&i2s0>;
+		}
+}
+
 &i2c0 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&i2c0_pd_pins>;
@@ -217,57 +233,8 @@
 		status = "disabled";
 	};
 
-	ctp@5d {
-		compatible = "goodix,gt911";
-		reg = <0x5d>;
-		interrupt-parent = <&pio>;
-		interrupts = <4 12 IRQ_TYPE_EDGE_FALLING>; // PE12
-		irq-gpios = <&pio 4 12 GPIO_ACTIVE_HIGH>; // PE12
-		reset-gpios = <&pio 0 0 GPIO_ACTIVE_HIGH>; // PA0
-	};
-
-	ov2640: camera@30 {
-		compatible = "ovti,ov2640";
-		reg = <0x30>;
-		pinctrl-0 = <&clk_out_pins>;
-		pinctrl-names = "default";
-		clocks = <&clk_out>;
-		clock-names = "xvclk";
-		assigned-clocks = <&clk_out>;
-		assigned-clock-rates = <24000000>;
-
-		port {
-			ov2640_ep: endpoint {
-				remote-endpoint = <&csi0_ep>;
-				bus-width = <8>;
-				hsync-active = <0>;
-				vsync-active = <0>;
-				pclk-sample = <1>;
-			};
-		};
-	};
-
-	ov5640: camera@3c {
-		compatible = "ovti,ov5640";
-		reg = <0x3c>;
-		pinctrl-0 = <&clk_out_pins>;
-		pinctrl-names = "default";
-		clocks = <&clk_out>;
-		clock-names = "xclk";
-		assigned-clocks = <&clk_out>;
-		assigned-clock-rates = <24000000>;
-		status = "disabled";
-
-		port {
-			ov5640_ep: endpoint {
-				remote-endpoint = <&csi0_ep>;
-				bus-width = <8>;
-				hsync-active = <0>;
-				vsync-active = <0>;
-				pclk-sample = <1>;
-			};
-		};
-	};
+	
+	
 };
 
 &csi0 {

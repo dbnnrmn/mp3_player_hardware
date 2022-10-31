@@ -544,9 +544,6 @@
     (path "/401dcf25-129a-4017-9713-e4979f9d70cf/0b716140-997f-4184-89d2-783963198e90"
       (reference "#PWR0199") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/52b279eb-c829-42bc-aafd-dafff88967c2"
-      (reference "#PWR0200") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/84e98b4c-029c-4e3f-8234-3d5ae1b7c3bf"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
@@ -893,7 +890,7 @@
       (reference "R2") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/9661e28d-43a9-4bd0-9689-1ce563f779f6"
-      (reference "R3") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R3") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/c78b42b4-c451-4f87-9422-c9b23d0f4ae6"
       (reference "R4") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
@@ -908,7 +905,7 @@
       (reference "R7") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/1fa0d596-a558-42ed-9b47-7b46468a1c18"
-      (reference "R8") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/c516f6ec-36ac-4b48-b23f-b09de4e0f527"
       (reference "R9") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
@@ -971,19 +968,19 @@
       (reference "R28") (unit 1) (value "150") (footprint "")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/3b6d9e5b-988b-4db9-9f01-d03d872421bc"
-      (reference "R29") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R29") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/a956ee53-7966-4e77-9416-e540181d2e97"
-      (reference "R30") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R30") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/11857c01-e903-4e5d-bb75-a9df30d00280"
-      (reference "R31") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R31") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/554c626c-b879-4dc2-bc56-8f4a16354c5d"
-      (reference "R32") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R32") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/3e90b38a-c39d-4d68-88ac-3b4421f74015"
-      (reference "R33") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R33") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/75d27043-f34a-4f72-a0ea-b0d12d4446b7"
       (reference "R34") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
@@ -1026,9 +1023,6 @@
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/246b12af-4141-44f4-aacd-e12cf97ec478"
       (reference "R47") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
-    )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/5aa402f7-299d-42cc-9383-9e338c82b6bc"
-      (reference "R48") (unit 1) (value "R") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/e1791f45-9313-4623-bca3-b0a68fdadfbe/34008909-d15a-432e-8a83-89239de5595a"
       (reference "SW1") (unit 1) (value "TS-1010-C-A") (footprint "rlib_buttons:TS-1010-X-X")

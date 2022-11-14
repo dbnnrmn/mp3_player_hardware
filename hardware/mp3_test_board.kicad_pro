@@ -428,12 +428,12 @@
       "POWER"
     ],
     [
-      "401dcf25-129a-4017-9713-e4979f9d70cf",
-      "DAC"
-    ],
-    [
       "494fd4b1-1de7-49fe-827f-914491efe850",
       "SOC"
+    ],
+    [
+      "8a184ff4-f009-4368-ae0f-59dfbdc06c07",
+      "NewDAC"
     ]
   ],
   "text_variables": {}

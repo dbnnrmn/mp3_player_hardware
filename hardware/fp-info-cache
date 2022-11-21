@@ -1,4 +1,4 @@
-20342595458511478
+20344264052423867
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85905,6 +85905,13 @@ UQFN NoLead
 49
 rlib_lcd
 WF24LTYAJDNN0
+
+
+0
+42
+42
+rlib_lcd
+WF24LTYAJDNN0_копия
 
 
 0

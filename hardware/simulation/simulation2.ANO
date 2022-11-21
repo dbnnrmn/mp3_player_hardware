@@ -1,0 +1,3167 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                        AC Analysis of simulation2                        ***
+***                           21.11.2022 13:42:40                            ***
+********************************************************************************
+Limits
+======
+Frequency Range          Log 100k,10
+Number of Points         1001
+Temperature              Linear 27
+Maximum Change %         5
+Noise Input              None
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          Off
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node                       Voltage  Node                       Voltage 
+1                           0.000   2                           0.000  
+3                           0.000   4                           0.000  
+OUT1                        0.000   6                           0.000  
+OUT2                        0.000   8                           0.000  
+9                           0.000   OUT3                        0.000  
+11                          0.000   12                          0.000  
+13                          0.000   14                          0.000  
+OUT4                        0.000   X4.N24458                   0.000  
+X4.N24659                   0.000   X4.X_U25.CAP_L              0.000  
+X4.X_U25.CAP_R              0.000   X4.X_U6.IOUT+               0.000  
+X4.N39473                   0.000   X4.N39884                   0.000  
+X4.X_U32.VC+                0.000   X4.N2425309                 0.000  
+X4.N2425287                 0.000   X4.N2425325                 0.000  
+X4.X_U35.VC+                0.000   X4.X_U35.VC-                0.000  
+X4.X_U22.VC+                0.000   X4.X_U22.VC-                0.000  
+X4.N25921                   0.000   X4.N25929                   0.000  
+X4.X_U23.VC+                0.000   X4.X_U23.VC-                0.000  
+X4.X_U12.VIN                0.000   X4.N72398                   0.000  
+X4.N72391                   0.000   X4.X_U16.OLN                0.000  
+X4.X_U16.OLP                0.000   X4.X_U25.SW_OL_OPA1656      0.000  
+X4.VCLP                     0.000   X4.X_U27.VC-                0.000  
+X4.N27785                   0.000   X4.N27793                   0.000  
+X4.X_U10.VIN                0.000   X4.N2402147                 0.000  
+X4.N2402155                 0.000   X4.N2707598                 0.000  
+X4.N2707608                 0.000   X4.N2516408                 0.000  
+X4.N2526910                 0.000   X4.N36262                   0.000  
+X4.X_U30.VC+                0.000   X4.N2532013                 0.000  
+X4.N2549447                 0.000   X4.N2549439                 0.000  
+X4.X_U31.IOUT-              0.000   X4.X_U5.ESDP                0.000  
+X4.X_U5.ESDN                0.000   X4.N158495                  0.000  
+X4.N161937                  0.000   X4.X_U35.IOUT+              0.000  
+X4.X_U22.IOUT+              0.000   X4.N39124                   0.000  
+X4.N39920                   0.000   X4.X_U18.IOUT-              0.000  
+X4.X_U19.IOUT+              0.000   X4.N25415                   0.000  
+X4.X_U4.VOS+                0.000   X4.X_U10.VC+                0.000  
+X4.X_U10.VC-                0.000   X4.X_H3.2                   0.000  
+X4.X_H2.2                   0.000   X4.N25248                   0.000  
+X4.N2531913                 0.000   X4.X_U6.VIN+                0.000  
+X4.N28438                   0.000   X4.N28311                   0.000  
+X4.VSENSE                   0.000   X4.X_U4.VOS-                0.000  
+X4.N2531921                 0.000   X4.X_U30.VC-                0.000  
+X4.X_U6.VP+                 0.000   X4.X_U6.VP-                 0.000  
+X4.X_U6.IOUT-               0.000   X4.X_U31.VC+                0.000  
+X4.N39417                   0.000   X4.X_U32.IOUT-              0.000  
+X4.X_U10.VO+                0.000   X4.X_U10.VO-                0.000  
+X4.X_U11.VC+                0.000   X4.X_U11.VO+                0.000  
+X4.X_U11.VO-                0.000   X4.X_U11.VC-                0.000  
+X4.X_U12.VC+                0.000   X4.X_U12.VO+                0.000  
+X4.X_U12.VO-                0.000   X4.X_U12.VC-                0.000  
+X4.X_U18.IOUT+              0.000   X4.X_U19.IOUT-              0.000  
+X4.X_H3.3                   0.000   X4.X_H2.3                   0.000  
+X4.X_U16.SW+                0.000   X4.N2516366                 0.000  
+X4.X_H1.1                   0.000   X4.X_H1.3                   0.000  
+X4.N1356333                 0.000   X4.N1356429                 0.000  
+X4.X_S2.4                   0.000   X4.X_S1.3                   0.000  
+X5.N24458                   0.000   X5.N24659                   0.000  
+X5.X_U25.CAP_L              0.000   X5.X_U25.CAP_R              0.000  
+X5.X_U6.IOUT+               0.000   X5.N39473                   0.000  
+X5.N39884                   0.000   X5.X_U32.VC+                0.000  
+X5.N2425309                 0.000   X5.N2425287                 0.000  
+X5.N2425325                 0.000   X5.X_U35.VC+                0.000  
+X5.X_U35.VC-                0.000   X5.X_U22.VC+                0.000  
+X5.X_U22.VC-                0.000   X5.N25921                   0.000  
+X5.N25929                   0.000   X5.X_U23.VC+                0.000  
+X5.X_U23.VC-                0.000   X5.X_U12.VIN                0.000  
+X5.N72398                   0.000   X5.N72391                   0.000  
+X5.X_U16.OLN                0.000   X5.X_U16.OLP                0.000  
+X5.X_U25.SW_OL_OPA1656      0.000   X5.VCLP                     0.000  
+X5.X_U27.VC-                0.000   X5.N27785                   0.000  
+X5.N27793                   0.000   X5.X_U10.VIN                0.000  
+X5.N2402147                 0.000   X5.N2402155                 0.000  
+X5.N2707598                 0.000   X5.N2707608                 0.000  
+X5.N2516408                 0.000   X5.N2526910                 0.000  
+X5.N36262                   0.000   X5.X_U30.VC+                0.000  
+X5.N2532013                 0.000   X5.N2549447                 0.000  
+X5.N2549439                 0.000   X5.X_U31.IOUT-              0.000  
+X5.X_U5.ESDP                0.000   X5.X_U5.ESDN                0.000  
+X5.N158495                  0.000   X5.N161937                  0.000  
+X5.X_U35.IOUT+              0.000   X5.X_U22.IOUT+              0.000  
+X5.N39124                   0.000   X5.N39920                   0.000  
+X5.X_U18.IOUT-              0.000   X5.X_U19.IOUT+              0.000  
+X5.N25415                   0.000   X5.X_U4.VOS+                0.000  
+X5.X_U10.VC+                0.000   X5.X_U10.VC-                0.000  
+X5.X_H3.2                   0.000   X5.X_H2.2                   0.000  
+X5.N25248                   0.000   X5.N2531913                 0.000  
+X5.X_U6.VIN+                0.000   X5.N28438                   0.000  
+X5.N28311                   0.000   X5.VSENSE                   0.000  
+X5.X_U4.VOS-                0.000   X5.N2531921                 0.000  
+X5.X_U30.VC-                0.000   X5.X_U6.VP+                 0.000  
+X5.X_U6.VP-                 0.000   X5.X_U6.IOUT-               0.000  
+X5.X_U31.VC+                0.000   X5.N39417                   0.000  
+X5.X_U32.IOUT-              0.000   X5.X_U10.VO+                0.000  
+X5.X_U10.VO-                0.000   X5.X_U11.VC+                0.000  
+X5.X_U11.VO+                0.000   X5.X_U11.VO-                0.000  
+X5.X_U11.VC-                0.000   X5.X_U12.VC+                0.000  
+X5.X_U12.VO+                0.000   X5.X_U12.VO-                0.000  
+X5.X_U12.VC-                0.000   X5.X_U18.IOUT+              0.000  
+X5.X_U19.IOUT-              0.000   X5.X_H3.3                   0.000  
+X5.X_H2.3                   0.000   X5.X_U16.SW+                0.000  
+X5.N2516366                 0.000   X5.X_H1.1                   0.000  
+X5.X_H1.3                   0.000   X5.N1356333                 0.000  
+X5.N1356429                 0.000   X5.X_S2.4                   0.000  
+X5.X_S1.3                   0.000   X1.X1.XU14.VI               0.000  
+X1.X1.XU8.VO                0.000   X1.X1.XU3.2                 0.000  
+X1.X1.XU2.GNDF              0.000   X1.X1.XR3.N                 0.000  
+X1.X1.XU5.VIMON             0.000   X1.X1.XU11.VO               0.000  
+X1.X1.XU5.VO                0.000   X1.X1.XU16.VO               0.000  
+X1.X1.XU14.VO               0.000   X1.X1.XU15.VO               0.000  
+X1.X1.XR3.P                 0.000   X1.X1.XU7.VO                0.000  
+X1.X1.XU2.VON               0.000   X1.X1.XU2.VOP               0.000  
+X1.X1.NET126                0.000   X1.X1.NET128                0.000  
+X2.X1.XU14.VI               0.000   X2.X1.XU8.VO                0.000  
+X2.X1.XU3.2                 0.000   X2.X1.XU2.GNDF              0.000  
+X2.X1.XR3.N                 0.000   X2.X1.XU5.VIMON             0.000  
+X2.X1.XU11.VO               0.000   X2.X1.XU5.VO                0.000  
+X2.X1.XU16.VO               0.000   X2.X1.XU14.VO               0.000  
+X2.X1.XU15.VO               0.000   X2.X1.XR3.P                 0.000  
+X2.X1.XU7.VO                0.000   X2.X1.XU2.VON               0.000  
+X2.X1.XU2.VOP               0.000   X2.X1.NET126                0.000  
+X2.X1.NET128                0.000   X4.X_U1.7                   0.000  
+X4.X_U1.8                   0.000   X4.X_U1.3                   0.000  
+X4.X_U1.6                   0.000   X4.X_U1.4                   0.000  
+X4.X_U1.5                   0.000   X4.X_U36.3                  0.000  
+X4.X_U36.5                  0.000   X4.X_U37.3                  0.000  
+X4.X_U37.5                  0.000   X5.X_U1.7                   0.000  
+X5.X_U1.8                   0.000   X5.X_U1.3                   0.000  
+X5.X_U1.6                   0.000   X5.X_U1.4                   0.000  
+X5.X_U1.5                   0.000   X5.X_U36.3                  0.000  
+X5.X_U36.5                  0.000   X5.X_U37.3                  0.000  
+X5.X_U37.5                  0.000   X1.X1.XU5.VDD_CLP           0.000  
+X1.X1.XU5.VSS_CLP           0.000   X1.X1.XU11.VP1              0.000  
+X1.X1.XU11.VP2              0.000   X1.X1.XU11.VP3              0.000  
+X1.X1.XU11.VP4              0.000   X1.X1.XU11.VZ1              0.000  
+X1.X1.XU11.VX1              0.000   X1.X1.XU11.VZ2              0.000  
+X1.X1.XU11.VX2              0.000   X1.X1.XU11.VZ3              0.000  
+X1.X1.XU11.VX3              0.000   X1.X1.XU11.VZ4              0.000  
+X1.X1.XU11.VX4              0.000   X1.X1.XU11.VX5              0.000  
+X1.X1.XU8.1                 0.000   X1.X1.XU8.2                 0.000  
+X1.X1.XU7.1                 0.000   X1.X1.XU7.2                 0.000  
+X1.X1.XU4.7                 0.000   X1.X1.XU4.8                 0.000  
+X1.X1.XU4.3                 0.000   X1.X1.XU4.6                 0.000  
+X1.X1.XU4.4                 0.000   X1.X1.XU4.5                 0.000  
+X1.X1.XU3.7                 0.000   X1.X1.XU3.8                 0.000  
+X1.X1.XU3.3                 0.000   X1.X1.XU3.6                 0.000  
+X1.X1.XU3.4                 0.000   X1.X1.XU3.5                 0.000  
+X2.X1.XU5.VDD_CLP           0.000   X2.X1.XU5.VSS_CLP           0.000  
+X2.X1.XU11.VP1              0.000   X2.X1.XU11.VP2              0.000  
+X2.X1.XU11.VP3              0.000   X2.X1.XU11.VP4              0.000  
+X2.X1.XU11.VZ1              0.000   X2.X1.XU11.VX1              0.000  
+X2.X1.XU11.VZ2              0.000   X2.X1.XU11.VX2              0.000  
+X2.X1.XU11.VZ3              0.000   X2.X1.XU11.VX3              0.000  
+X2.X1.XU11.VZ4              0.000   X2.X1.XU11.VX4              0.000  
+X2.X1.XU11.VX5              0.000   X2.X1.XU8.1                 0.000  
+X2.X1.XU8.2                 0.000   X2.X1.XU7.1                 0.000  
+X2.X1.XU7.2                 0.000   X2.X1.XU4.7                 0.000  
+X2.X1.XU4.8                 0.000   X2.X1.XU4.3                 0.000  
+X2.X1.XU4.6                 0.000   X2.X1.XU4.4                 0.000  
+X2.X1.XU4.5                 0.000   X2.X1.XU3.7                 0.000  
+X2.X1.XU3.8                 0.000   X2.X1.XU3.3                 0.000  
+X2.X1.XU3.6                 0.000   X2.X1.XU3.4                 0.000  
+X2.X1.XU3.5                 0.000  
+
+DC Operating Point Inductor Current
+===================================
+              Inductor     Current                Inductor     Current 
+X1.X1.XU11.LZ1              0.000   X1.X1.XU11.LZ2              0.000  
+X1.X1.XU11.LZ3              0.000   X1.X1.XU11.LZ4              0.000  
+X1.X1.XU11.LZ5              0.000   X1.X1.XU8.L1                0.000  
+X1.X1.XU7.L1                0.000   X2.X1.XU11.LZ1              0.000  
+X2.X1.XU11.LZ2              0.000   X2.X1.XU11.LZ3              0.000  
+X2.X1.XU11.LZ4              0.000   X2.X1.XU11.LZ5              0.000  
+X2.X1.XU8.L1                0.000   X2.X1.XU7.L1                0.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:           X1.X1.DPASSTOP       X1.X1.DBLOCKTOP     X1.X1.DPASSBOTTOM
+Using model:        X1.X1.DDEFAULT          X1.X1.DBLOCK        X1.X1.DDEFAULT
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                          0.000            -1.000E-050                0.000 
+
+Resistance Terms:
+REQ                       969.997G              969.997G              969.997G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:       X1.X1.DBLOCKBOTTOM        X2.X1.DPASSTOP       X2.X1.DBLOCKTOP
+Using model:          X1.X1.DBLOCK        X2.X1.DDEFAULT          X2.X1.DBLOCK
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                     -1.000E-050                0.000            -1.000E-050
+
+Resistance Terms:
+REQ                       969.997G              969.997G              969.997G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:        X2.X1.DPASSBOTTOM    X2.X1.DBLOCKBOTTOM            X4.X_U1.D1
+Using model:        X2.X1.DDEFAULT          X2.X1.DBLOCK           X4.X_U1.DVN
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                          0.000            -1.000E-050                0.000 
+
+Resistance Terms:
+REQ                       969.997G              969.997G              996.149G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:               X4.X_U1.D2            X5.X_U1.D1            X5.X_U1.D2
+Using model:           X4.X_U1.DVN           X5.X_U1.DVN           X5.X_U1.DVN
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                          0.000                 0.000                 0.000 
+
+Resistance Terms:
+REQ                       996.149G              996.149G              996.149G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XD4.D1          X1.X1.XD3.D1          X1.X1.XD2.D1
+Using model:      X1.X1.XD4.IDIODE      X1.X1.XD3.IDIODE      X1.X1.XD2.IDIODE
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                     -1.000E-050           -1.000E-050           -1.000E-050
+
+Resistance Terms:
+REQ                        25.212G               25.212G               25.212G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XD1.D1          X1.X1.XU4.D1          X1.X1.XU4.D2
+Using model:      X1.X1.XD1.IDIODE        X1.X1.XU4.DVNF        X1.X1.XU4.DVNF
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                     -1.000E-050                0.000                 0.000 
+
+Resistance Terms:
+REQ                        25.212G              996.149G              996.149G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU3.D1          X1.X1.XU3.D2          X2.X1.XD4.D1
+Using model:         X1.X1.XU3.DVN         X1.X1.XU3.DVN      X2.X1.XD4.IDIODE
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                          0.000                 0.000            -1.000E-050
+
+Resistance Terms:
+REQ                       996.149G              996.149G               25.212G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XD3.D1          X2.X1.XD2.D1          X2.X1.XD1.D1
+Using model:      X2.X1.XD3.IDIODE      X2.X1.XD2.IDIODE      X2.X1.XD1.IDIODE
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                     -1.000E-050           -1.000E-050           -1.000E-050
+
+Resistance Terms:
+REQ                        25.212G               25.212G               25.212G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU4.D1          X2.X1.XU4.D2          X2.X1.XU3.D1
+Using model:        X2.X1.XU4.DVNF        X2.X1.XU4.DVNF         X2.X1.XU3.DVN
+
+Capacitance Terms:
+CAP                         0.000                 0.000                 0.000 
+
+Current Terms:
+ID                          0.000                 0.000                 0.000 
+
+Resistance Terms:
+REQ                       996.149G              996.149G              996.149G
+
+Voltage Terms:
+VD                          0.000                 0.000                 0.000 
+
+Power DC Terms:
+PD                          0.000                 0.000                 0.000 
+PS                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Id                          0.000                 0.000                 0.000 
+
+Condition:
+State                                                                         
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU3.D2
+Using model:         X2.X1.XU3.DVN
+
+Capacitance Terms:
+CAP                         0.000 
+
+Current Terms:
+ID                          0.000 
+
+Resistance Terms:
+REQ                       996.149G
+
+Voltage Terms:
+VD                          0.000 
+
+Power DC Terms:
+PD                          0.000 
+PS                          0.000 
+
+DC Pin Currents:
+Id                          0.000 
+
+Condition:
+State                             
+
+Device Variables:
+area                        1.000 
+ic                          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                        R1                    R2                    R3
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                        R4                    R7                    R8
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                        R9                   R10                   R11
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                       R12                   R13               X4.R_R1
+Using model:                     NA                    NA        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R10              X4.R_R11             X4.R_R119
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R12             X4.R_R120             X4.R_R122
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                 X4.R_R123             X4.R_R124             X4.R_R125
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                 X4.R_R126             X4.R_R127             X4.R_R128
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                 X4.R_R129              X4.R_R13              X4.R_R14
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R15              X4.R_R16              X4.R_R17
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R18              X4.R_R19               X4.R_R2
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R20              X4.R_R21              X4.R_R22
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R23              X4.R_R24               X4.R_R3
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R32              X4.R_R33              X4.R_R34
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R35              X4.R_R36              X4.R_R37
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R38              X4.R_R39               X4.R_R4
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R40              X4.R_R41              X4.R_R42
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R43              X4.R_R46              X4.R_R47
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R48              X4.R_R49               X4.R_R5
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R50              X4.R_R51              X4.R_R52
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R53              X4.R_R54              X4.R_R55
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R56              X4.R_R57              X4.R_R58
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R59               X4.R_R6              X4.R_R60
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R61              X4.R_R62              X4.R_R63
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R64              X4.R_R65              X4.R_R66
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R67              X4.R_R68              X4.R_R69
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                   X4.R_R7              X4.R_R70              X4.R_R71
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R72              X4.R_R73              X4.R_R74
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R75              X4.R_R76              X4.R_R77
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R78              X4.R_R79               X4.R_R8
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R80              X4.R_R81              X4.R_R82
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R83              X4.R_R84              X4.R_R85
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R86              X4.R_R87              X4.R_R88
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                   X4.R_R9              X4.R_R90              X4.R_R91
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_R92              X4.R_R93              X4.R_R94
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:               X4.R_RDUMMY               X4.R_RX              X4.R_RX1
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X4.R_RX2              X4.R_RX3              X4.R_RX4
+Using model:         X4.R_NOISELESS        X4.R_NOISELESS        X4.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:               X4.R_R_DIFF               X5.R_R1              X5.R_R10
+Using model:         X4.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R11             X5.R_R119              X5.R_R12
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                 X5.R_R120             X5.R_R122             X5.R_R123
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                 X5.R_R124             X5.R_R125             X5.R_R126
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                 X5.R_R127             X5.R_R128             X5.R_R129
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R13              X5.R_R14              X5.R_R15
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R16              X5.R_R17              X5.R_R18
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R19               X5.R_R2              X5.R_R20
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R21              X5.R_R22              X5.R_R23
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R24               X5.R_R3              X5.R_R32
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R33              X5.R_R34              X5.R_R35
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R36              X5.R_R37              X5.R_R38
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R39               X5.R_R4              X5.R_R40
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R41              X5.R_R42              X5.R_R43
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R46              X5.R_R47              X5.R_R48
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R49               X5.R_R5              X5.R_R50
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R51              X5.R_R52              X5.R_R53
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R54              X5.R_R55              X5.R_R56
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R57              X5.R_R58              X5.R_R59
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                   X5.R_R6              X5.R_R60              X5.R_R61
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R62              X5.R_R63              X5.R_R64
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R65              X5.R_R66              X5.R_R67
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R68              X5.R_R69               X5.R_R7
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R70              X5.R_R71              X5.R_R72
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R73              X5.R_R74              X5.R_R75
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R76              X5.R_R77              X5.R_R78
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R79               X5.R_R8              X5.R_R80
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R81              X5.R_R82              X5.R_R83
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R84              X5.R_R85              X5.R_R86
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R87              X5.R_R88               X5.R_R9
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R90              X5.R_R91              X5.R_R92
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_R93              X5.R_R94           X5.R_RDUMMY
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                   X5.R_RX              X5.R_RX1              X5.R_RX2
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                  X5.R_RX3              X5.R_RX4           X5.R_R_DIFF
+Using model:         X5.R_NOISELESS        X5.R_NOISELESS        X5.R_NOISELESS
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:               X1.X1.RVXU1           X2.X1.RVXU1         X4.X_S1.RS_S1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:             X4.X_S2.RS_S2            X4.X_U1.R1            X4.X_U1.R2
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                X4.X_U1.R3            X4.X_U1.R4            X4.X_U1.R5
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                X4.X_U1.R6            X4.X_U1.R7           X4.X_U36.R1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:               X4.X_U36.R2           X4.X_U37.R1           X4.X_U37.R2
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:             X5.X_S1.RS_S1         X5.X_S2.RS_S2            X5.X_U1.R1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                X5.X_U1.R2            X5.X_U1.R3            X5.X_U1.R4
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                X5.X_U1.R5            X5.X_U1.R6            X5.X_U1.R7
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:               X5.X_U36.R1           X5.X_U36.R2           X5.X_U37.R1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:               X5.X_U37.R2          X1.X1.XU8.R1          X1.X1.XU7.R1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU4.R1          X1.X1.XU4.R2          X1.X1.XU4.R3
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU4.R4          X1.X1.XU4.R5          X1.X1.XU4.R6
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU4.R7          X1.X1.XU3.R1          X1.X1.XU3.R2
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU3.R3          X1.X1.XU3.R4          X1.X1.XU3.R5
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU3.R6          X1.X1.XU3.R7          X2.X1.XU8.R1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU7.R1          X2.X1.XU4.R1          X2.X1.XU4.R2
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU4.R3          X2.X1.XU4.R4          X2.X1.XU4.R5
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU4.R6          X2.X1.XU4.R7          X2.X1.XU3.R1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU3.R2          X2.X1.XU3.R3          X2.X1.XU3.R4
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU3.R5          X2.X1.XU3.R6          X2.X1.XU3.R7
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:         X1.X1.XU16.G1.int     X2.X1.XU16.G1.int
+V                            0.000                 0.000 
+Power DC Terms:
+PD                           0.000                 0.000 
+
+DC Pin Currents:
+Ir                           0.000                 0.000 
+
+Device Variables:
+tc1                          0.000                 0.000 
+tc2                          0.000                 0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:            X1.X1.XU11.LZ1        X1.X1.XU11.LZ2        X1.X1.XU11.LZ3
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Il                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:            X1.X1.XU11.LZ4        X1.X1.XU11.LZ5          X1.X1.XU8.L1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Il                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU7.L1        X2.X1.XU11.LZ1        X2.X1.XU11.LZ2
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Il                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:            X2.X1.XU11.LZ3        X2.X1.XU11.LZ4        X2.X1.XU11.LZ5
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Il                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU8.L1          X2.X1.XU7.L1
+V                            0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000 
+
+DC Pin Currents:
+Il                           0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                        C1                    C2                    C4
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                        C5                    C6               X4.C_C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C10              X4.C_C11              X4.C_C12
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C13              X4.C_C14              X4.C_C15
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C16              X4.C_C17              X4.C_C18
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C19               X4.C_C2              X4.C_C20
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C21              X4.C_C22              X4.C_C23
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C24              X4.C_C25              X4.C_C26
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C27              X4.C_C28              X4.C_C29
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                   X4.C_C3              X4.C_C30              X4.C_C31
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C33              X4.C_C34              X4.C_C38
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C39               X4.C_C4              X4.C_C41
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X4.C_C42               X4.C_C5           X4.C_C_COM0
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:               X4.C_C_COM1           X4.C_C_DIFF               X5.C_C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C10              X5.C_C11              X5.C_C12
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C13              X5.C_C14              X5.C_C15
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C16              X5.C_C17              X5.C_C18
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C19               X5.C_C2              X5.C_C20
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C21              X5.C_C22              X5.C_C23
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C24              X5.C_C25              X5.C_C26
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C27              X5.C_C28              X5.C_C29
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                   X5.C_C3              X5.C_C30              X5.C_C31
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C33              X5.C_C34              X5.C_C38
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C39               X5.C_C4              X5.C_C41
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:                  X5.C_C42               X5.C_C5           X5.C_C_COM0
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:               X5.C_C_COM1           X5.C_C_DIFF        X1.X1.XU11.CP1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:            X1.X1.XU11.CP2        X1.X1.XU11.CP3        X1.X1.XU11.CP4
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU16.C1          X1.X1.XU7.C2          X1.X1.XU4.C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU4.C2          X1.X1.XU4.C3          X1.X1.XU3.C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU3.C2          X1.X1.XU3.C3          X1.X1.XU2.C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X1.X1.XU2.C2          X1.X1.XU2.C3        X2.X1.XU11.CP1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:            X2.X1.XU11.CP2        X2.X1.XU11.CP3        X2.X1.XU11.CP4
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU16.C1          X2.X1.XU7.C2          X2.X1.XU4.C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU4.C2          X2.X1.XU4.C3          X2.X1.XU3.C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU3.C2          X2.X1.XU3.C3          X2.X1.XU2.C1
+V                            0.000                 0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+Instance:              X2.X1.XU2.C2          X2.X1.XU2.C3
+V                            0.000                 0.000 
+Power DC Terms:
+PS                           0.000                 0.000 
+
+DC Pin Currents:
+Ic                           0.000                 0.000 
+
+Device Variables:
+ic                           0.000                 0.000 
+
+
+
+Operating Point for Devices of Type S
+=====================================
+Instance:              X4.X_S1.S_S1          X4.X_S2.S_S2           X4.X_U20.S1
+Using model:            X4.X_S1._S1           X4.X_S2._S2       X4.X_U20.ESD_SW
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:               X4.X_U20.S2           X4.X_U21.S1           X4.X_U21.S2
+Using model:        X4.X_U20.ESD_SW       X4.X_U21.ESD_SW       X4.X_U21.ESD_SW
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:               X4.X_U25.S1            X4.X_U5.S1            X4.X_U5.S2
+Using model:         X4.X_U25.OL_SW        X4.X_U5.ESD_SW        X4.X_U5.ESD_SW
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:                X4.X_U5.S3            X4.X_U5.S4          X5.X_S1.S_S1
+Using model:         X4.X_U5.ESD_SW        X4.X_U5.ESD_SW           X5.X_S1._S1
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:              X5.X_S2.S_S2           X5.X_U20.S1           X5.X_U20.S2
+Using model:            X5.X_S2._S2       X5.X_U20.ESD_SW       X5.X_U20.ESD_SW
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:               X5.X_U21.S1           X5.X_U21.S2           X5.X_U25.S1
+Using model:        X5.X_U21.ESD_SW       X5.X_U21.ESD_SW        X5.X_U25.OL_SW
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:                X5.X_U5.S1            X5.X_U5.S2            X5.X_U5.S3
+Using model:         X5.X_U5.ESD_SW        X5.X_U5.ESD_SW        X5.X_U5.ESD_SW
+Power DC Terms:
+PD                           0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                      0.000                 0.000                 0.000 
+
+Condition:
+State                           OFF                   OFF                   OFF
+
+
+Instance:                X5.X_U5.S4
+Using model:         X5.X_U5.ESD_SW
+Power DC Terms:
+PD                           0.000 
+
+DC Pin Currents:
+ISource                      0.000 
+
+Condition:
+State                           OFF
+
+
+
+Operating Point for Devices of Type Function Source
+===================================================
+Instance:            X4.X_U10.GVO+         X4.X_U10.GVO-         X4.X_U11.GVO+
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X4.X_U11.GVO-         X4.X_U12.GVO+         X4.X_U12.GVO-
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X4.X_U16.GSW+           X4.X_U22.G1           X4.X_U23.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X4.X_U26.G1           X4.X_U27.G1           X4.X_U30.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X4.X_U31.G1           X4.X_U32.G1           X4.X_U35.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X4.X_U4.E1            X4.X_U6.G1         X5.X_U10.GVO+
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X5.X_U10.GVO-         X5.X_U11.GVO+         X5.X_U11.GVO-
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X5.X_U12.GVO+         X5.X_U12.GVO-         X5.X_U16.GSW+
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.X_U22.G1           X5.X_U23.G1           X5.X_U26.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.X_U27.G1           X5.X_U30.G1           X5.X_U31.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.X_U32.G1           X5.X_U35.G1            X5.X_U4.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X5.X_U6.G1       X1.X1.XU9.EGNDF      X1.X1.XU6.EMETER
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:         X1.X1.XU5.EPCLIP      X1.X1.XU5.ENCLIP      X1.X1.XU5.ECLAMP
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:          X1.X1.XU11.GRP1       X1.X1.XU11.GRP2       X1.X1.XU11.GRP3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:          X1.X1.XU11.GRP4       X1.X1.XU11.GRZ1       X1.X1.XU11.GRZ2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:          X1.X1.XU11.GRZ3       X1.X1.XU11.GRZ4       X1.X1.XU11.GRZ5
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X1.X1.XU16.G1        X1.X1.XU16.GR1     X1.X1.XU15.ECLAMP
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:        X1.X1.XU14.ECLAMP        X1.X1.XR3.GRES          X1.X1.XU2.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU2.G2       X2.X1.XU9.EGNDF      X2.X1.XU6.EMETER
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:         X2.X1.XU5.EPCLIP      X2.X1.XU5.ENCLIP      X2.X1.XU5.ECLAMP
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:          X2.X1.XU11.GRP1       X2.X1.XU11.GRP2       X2.X1.XU11.GRP3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:          X2.X1.XU11.GRP4       X2.X1.XU11.GRZ1       X2.X1.XU11.GRZ2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:          X2.X1.XU11.GRZ3       X2.X1.XU11.GRZ4       X2.X1.XU11.GRZ5
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X2.X1.XU16.G1        X2.X1.XU16.GR1     X2.X1.XU15.ECLAMP
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:        X2.X1.XU14.ECLAMP        X2.X1.XR3.GRES          X2.X1.XU2.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU2.G2
+V                           0.000 
+Power DC Terms:
+PG                          0.000 
+
+DC Pin Currents:
+ISource                     0.000 
+
+
+
+Operating Point for Devices of Type SPICE Poly
+==============================================
+Instance:                  X4.E_E1               X4.E_E2               X4.E_E3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                  X4.G_G1              X4.G_G12              X4.G_G13
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G15              X4.G_G16              X4.G_G17
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G18              X4.G_G19               X4.G_G2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G20              X4.G_G21              X4.G_G22
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G23              X4.G_G24              X4.G_G25
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G27              X4.G_G28               X4.G_G3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                  X4.G_G4              X4.G_G46              X4.G_G47
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G49               X4.G_G5              X4.G_G50
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.G_G51               X4.G_G6               X5.E_E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                  X5.E_E2               X5.E_E3               X5.G_G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G12              X5.G_G13              X5.G_G15
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G16              X5.G_G17              X5.G_G18
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G19               X5.G_G2              X5.G_G20
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G21              X5.G_G22              X5.G_G23
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G24              X5.G_G25              X5.G_G27
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G28               X5.G_G3               X5.G_G4
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X5.G_G46              X5.G_G47              X5.G_G49
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                  X5.G_G5              X5.G_G50              X5.G_G51
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                  X5.G_G6            X1.X1.GTOP         X1.X1.GBOTTOM
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X2.X1.GTOP         X2.X1.GBOTTOM          X4.X_H1.H_H1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X4.X_H2.H_H2          X4.X_H3.H_H3            X4.X_U1.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X4.X_U1.E2            X4.X_U1.E3           X4.X_U36.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X4.X_U36.G1           X4.X_U37.E1           X4.X_U37.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X5.X_H1.H_H1          X5.X_H2.H_H2          X5.X_H3.H_H3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X5.X_U1.E1            X5.X_U1.E2            X5.X_U1.E3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.X_U36.E1           X5.X_U36.G1           X5.X_U37.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.X_U37.G1        X1.X1.XU11.GP1        X1.X1.XU11.GP2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:           X1.X1.XU11.GP3        X1.X1.XU11.GP4        X1.X1.XU11.GZ1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:           X1.X1.XU11.GZ2        X1.X1.XU11.GZ3        X1.X1.XU11.GZ4
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:           X1.X1.XU11.GZ5          X1.X1.XU8.G1          X1.X1.XU8.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU7.G1          X1.X1.XU7.E1          X1.X1.XU4.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU4.E2          X1.X1.XU4.G1          X1.X1.XU3.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU3.E2          X1.X1.XU3.E3        X2.X1.XU11.GP1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:           X2.X1.XU11.GP2        X2.X1.XU11.GP3        X2.X1.XU11.GP4
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:           X2.X1.XU11.GZ1        X2.X1.XU11.GZ2        X2.X1.XU11.GZ3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:           X2.X1.XU11.GZ4        X2.X1.XU11.GZ5          X2.X1.XU8.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU8.E1          X2.X1.XU7.G1          X2.X1.XU7.E1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU4.E1          X2.X1.XU4.E2          X2.X1.XU4.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU3.E1          X2.X1.XU3.E2          X2.X1.XU3.E3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                       V5                    V6                    V7
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                       I1                    I2                    V8
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                 X4.I_I_B             X4.I_I_OS              X4.I_I_Q
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X4.V_VCM_MAX          X4.V_VCM_MIN            X4.V_V_GRN
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X4.V_V_GRP           X4.V_V_ISCN           X4.V_V_ISCP
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X4.V_V_ORN            X4.V_V_ORP              X5.I_I_B
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                X5.I_I_OS              X5.I_I_Q          X5.V_VCM_MAX
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X5.V_VCM_MIN            X5.V_V_GRN            X5.V_V_GRP
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.V_V_ISCN           X5.V_V_ISCP            X5.V_V_ORN
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X5.V_V_ORP              X1.X1.IQ             X1.X1.IS2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                X1.X1.IS3             X1.X1.VOS              X2.X1.IQ
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:                X2.X1.IS2             X2.X1.IS3             X2.X1.VOS
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X4.X_H1.VH_H1         X4.X_H2.VH_H2         X4.X_H3.VH_H3
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X4.X_U1.I1            X4.X_U1.I2         X5.X_H1.VH_H1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:            X5.X_H2.VH_H2         X5.X_H3.VH_H3            X5.X_U1.I1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:               X5.X_U1.I2      X1.X1.XU6.VSENSE          X1.X1.XU4.I1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X1.X1.XU4.I2          X1.X1.XU3.I1          X1.X1.XU3.I2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:         X2.X1.XU6.VSENSE          X2.X1.XU4.I1          X2.X1.XU4.I2
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:             X2.X1.XU3.I1          X2.X1.XU3.I2
+V                           0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000 
+
+
+
+Operating Point for Devices of Type Table Source
+================================================
+Instance:              X4.X_U18.G1           X4.X_U19.G1           X5.X_U18.G1
+V                           0.000                 0.000                 0.000 
+Power DC Terms:
+PG                          0.000                 0.000                 0.000 
+
+DC Pin Currents:
+ISource                     0.000                 0.000                 0.000 
+
+
+Instance:              X5.X_U19.G1
+V                           0.000 
+Power DC Terms:
+PG                          0.000 
+
+DC Pin Currents:
+ISource                     0.000 
+
+

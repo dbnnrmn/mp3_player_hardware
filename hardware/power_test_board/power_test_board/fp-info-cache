@@ -1,4 +1,4 @@
-20359318263174296
+20352619859605885
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85805,13 +85805,6 @@ SMD SMT crystal
 0
 4
 4
-rlib_crystals
-OSC_XRCGB24M000F1H01R0
-
-
-0
-4
-4
 rlib_ic
 LQFP-48_7x7mm_P0.5mm
 LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -85939,13 +85932,6 @@ WF24LTYAJDNN0_копия
 42
 42
 rlib_passive
-BEADC2012X105N
-
-
-0
-2
-2
-rlib_passive
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
@@ -85960,21 +85946,7 @@ SOD-323F
 2
 2
 rlib_passive
-FUSC3216X85N
-MF-NSMF050-2-1
-Fuse
-0
-2
-2
-rlib_passive
 INDC2520X120N
-
-
-0
-2
-2
-rlib_passive
-IND_LQH32PN4R7NN0L
 
 
 0

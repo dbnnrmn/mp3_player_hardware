@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.82,
+          "width": 0.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -330,10 +330,18 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "rlib_connectors",
+      "rlib_passive",
+      "rlib_ic",
+      "rlib_power",
+      "rlib_crystal",
+      "rlib_buttons",
+      "rlib_lcd"
+    ]
   },
   "meta": {
-    "filename": "mp3_test_board.kicad_pro",
+    "filename": "power_test_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -367,7 +375,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "C:/Users/DubininRE/Desktop/mp3_test_board.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -412,24 +420,8 @@
   },
   "sheets": [
     [
-      "370258fd-6ba8-4ef3-8ebf-93d459bc2768",
+      "a9071002-7b28-4b9e-bf5a-6da304e2e10f",
       ""
-    ],
-    [
-      "494fd4b1-1de7-49fe-827f-914491efe850",
-      "SOC"
-    ],
-    [
-      "3ea3f31d-a82c-4aa5-88e5-12314efba5ef",
-      "NewPower"
-    ],
-    [
-      "8a184ff4-f009-4368-ae0f-59dfbdc06c07",
-      "NewDAC"
-    ],
-    [
-      "d0dc3cdb-cff8-4df1-98e4-32d3c12f8449",
-      "NewPower2"
     ]
   ],
   "text_variables": {}

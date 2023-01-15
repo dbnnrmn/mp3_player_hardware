@@ -1,0 +1,568 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<h2>KiBoM PCB Bill of Materials</h2>
+<table border="1">
+<tr><td>Source File</td><td>mp3_test_board.kicad_sch</td></tr>
+<tr><td>BoM Date</td><td>Вс 15 янв 2023 13:41:49</td></tr>
+<tr><td>Schematic Version</td><td></td></tr>
+<tr><td>Schematic Date</td><td></td></tr>
+<tr><td>PCB Variant</td><td>default</td></tr>
+<tr><td>KiCad Version</td><td>Eeschema 6.0.9-8da3e8f707~116~ubuntu22.04.1</td></tr>
+<tr><td>Component Groups</td><td>48</td></tr>
+<tr><td>Component Count (per PCB)</td><td>176</td></tr>
+<tr><td>Fitted Components (per PCB)</td><td>176</td></tr>
+<tr><td>Number of PCBs</td><td>1</td></tr>
+<tr><td>Total Component Count<br>(for 1 PCBs)</td><td>176</td></tr>
+</table>
+<br>
+<h2>Component Groups</h2>
+<p style="background-color: #FFE6B3">KiCad Fields (default)</p>
+<p style="background-color: #E6FFEE">Generated Fields</p>
+<p style="background-color: #E6F9FF">User Fields</p>
+<p style="background-color: #FF8080">Empty Fields</p>
+<table border="1">
+<tr>
+	<th></th>
+	<th align="center" bgcolor="#FFE6B3">References</th>
+	<th align="center" bgcolor="#FFE6B3">Value</th>
+	<th align="center" bgcolor="#E6FFEE">Quantity Per PCB</th>
+	<th align="center" bgcolor="#E6F9FF">LCSC partnumber</th>
+	<th align="center" bgcolor="#E6F9FF">Manufacturer</th>
+	<th align="center" bgcolor="#E6F9FF">Mnfct. partnumber</th>
+	<th align="center" bgcolor="#E6F9FF">LCSC Partnumber</th>
+	<th align="center" bgcolor="#E6F9FF">Mnfct.  partnumber</th>
+</tr>
+<tr>
+	<td align="center">1</td>
+	<td align="center" bgcolor=#FFE6B3>C5 C6</td>
+	<td align="center" bgcolor=#FFE6B3>18p</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#E6F9FF>C106202</td>
+	<td align="center" bgcolor=#E6F9FF>YAGEO</td>
+	<td align="center" bgcolor=#E6F9FF>CC0402JRNPO9BN180</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">2</td>
+	<td align="center" bgcolor=#FFE6B3>C41 C42 C43 C44</td>
+	<td align="center" bgcolor=#FFE6B3>2.2n</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C882523</td>
+	<td align="center" bgcolor=#E6F9FF>YAGEO</td>
+	<td align="center" bgcolor=#E6F9FF>GRM1885C1H222FA01D</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">3</td>
+	<td align="center" bgcolor=#FFE6B3>C49 C50 C51 C52</td>
+	<td align="center" bgcolor=#FFE6B3>8n2</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">4</td>
+	<td align="center" bgcolor=#FFE6B3>C47 C48</td>
+	<td align="center" bgcolor=#FFE6B3>27n</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#E6F9FF>C107086</td>
+	<td align="center" bgcolor=#E6F9FF>YAGEO</td>
+	<td align="center" bgcolor=#E6F9FF>CC0603KRX7R9BB273</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">5</td>
+	<td align="center" bgcolor=#FFE6B3>C1 C2 C3 C7 C10 C11 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C32 C33 C34 C35 C45 C46 C55</td>
+	<td align="center" bgcolor=#FFE6B3>100n</td>
+	<td align="center" bgcolor=#E6FFEE>28</td>
+	<td align="center" bgcolor=#E6F9FF>C45000</td>
+	<td align="center" bgcolor=#E6F9FF>Murata</td>
+	<td align="center" bgcolor=#E6F9FF>GRM188R71C104KA01D</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">6</td>
+	<td align="center" bgcolor=#FFE6B3>C13 C61 C63</td>
+	<td align="center" bgcolor=#FFE6B3>1u</td>
+	<td align="center" bgcolor=#E6FFEE>3</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">7</td>
+	<td align="center" bgcolor=#FFE6B3>C9</td>
+	<td align="center" bgcolor=#FFE6B3>2.2u</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">8</td>
+	<td align="center" bgcolor=#FFE6B3>C71</td>
+	<td align="center" bgcolor=#FFE6B3>3.3u</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">9</td>
+	<td align="center" bgcolor=#FFE6B3>C4 C8 C12 C62 C67 C68 C69 C70 C72 C73 C74 C75</td>
+	<td align="center" bgcolor=#FFE6B3>10u</td>
+	<td align="center" bgcolor=#E6FFEE>12</td>
+	<td align="center" bgcolor=#E6F9FF>C91606</td>
+	<td align="center" bgcolor=#E6F9FF>Murata</td>
+	<td align="center" bgcolor=#E6F9FF>GRM188R61E106MA73D</td>
+	<td align="center" bgcolor=#E6F9FF>C91606</td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">10</td>
+	<td align="center" bgcolor=#FFE6B3>C29 C30 C31 C36 C37 C38 C39 C40 C53 C54 C57 C58</td>
+	<td align="center" bgcolor=#FFE6B3>10u</td>
+	<td align="center" bgcolor=#E6FFEE>12</td>
+	<td align="center" bgcolor=#E6F9FF>C1508940</td>
+	<td align="center" bgcolor=#E6F9FF>Kemet</td>
+	<td align="center" bgcolor=#E6F9FF>T491A106K010AT</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">11</td>
+	<td align="center" bgcolor=#FFE6B3>C64 C65</td>
+	<td align="center" bgcolor=#FFE6B3>22u</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">12</td>
+	<td align="center" bgcolor=#FFE6B3>D11</td>
+	<td align="center" bgcolor=#FFE6B3>HCTL HC-1.25-3PWT</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C2845380</td>
+	<td align="center" bgcolor=#E6F9FF>HCTL</td>
+	<td align="center" bgcolor=#E6F9FF>HC-1.25-3PWT</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">13</td>
+	<td align="center" bgcolor=#FFE6B3>D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D12 D13 D14</td>
+	<td align="center" bgcolor=#FFE6B3>PESD3V3L1BA</td>
+	<td align="center" bgcolor=#E6FFEE>13</td>
+	<td align="center" bgcolor=#E6F9FF>C2827682</td>
+	<td align="center" bgcolor=#E6F9FF>TECH PUBLIC</td>
+	<td align="center" bgcolor=#E6F9FF>PESD3V3L1BA</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">14</td>
+	<td align="center" bgcolor=#FFE6B3>F1 F2</td>
+	<td align="center" bgcolor=#FFE6B3>500mA</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">15</td>
+	<td align="center" bgcolor=#FFE6B3>J2</td>
+	<td align="center" bgcolor=#FFE6B3>PJ-322</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C5123141</td>
+	<td align="center" bgcolor=#E6F9FF>Shenzhen Kinghelm Elec</td>
+	<td align="center" bgcolor=#E6F9FF>KH-PJ-322</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">16</td>
+	<td align="center" bgcolor=#FFE6B3>J1</td>
+	<td align="center" bgcolor=#FFE6B3>TF01-A</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C91145</td>
+	<td align="center" bgcolor=#E6F9FF>Korean Hroparts Elec</td>
+	<td align="center" bgcolor=#E6F9FF>TF-01A</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">17</td>
+	<td align="center" bgcolor=#FFE6B3>L2 L3</td>
+	<td align="center" bgcolor=#FFE6B3>1u</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6F9FF>Murata</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6F9FF>LQM2MPN1R0NG0L</td>
+</tr>
+<tr>
+	<td align="center">18</td>
+	<td align="center" bgcolor=#FFE6B3>L4</td>
+	<td align="center" bgcolor=#FFE6B3>4.7u</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">19</td>
+	<td align="center" bgcolor=#FFE6B3>L1 L5 L6</td>
+	<td align="center" bgcolor=#FFE6B3>L</td>
+	<td align="center" bgcolor=#E6FFEE>3</td>
+	<td align="center" bgcolor=#E6F9FF>C85840</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#E6F9FF>BLM21PG221SN1D</td>
+</tr>
+<tr>
+	<td align="center">20</td>
+	<td align="center" bgcolor=#FFE6B3>NT1</td>
+	<td align="center" bgcolor=#FFE6B3>NetTie_2</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">21</td>
+	<td align="center" bgcolor=#FFE6B3>P2</td>
+	<td align="center" bgcolor=#FFE6B3>USB-TYPE-C-018</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>USB-TYPE-C-018</td>
+	<td align="center" bgcolor=#E6F9FF>DEALON</td>
+	<td align="center" bgcolor=#E6F9FF>DEALON USB-TYPE-C-018</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">22</td>
+	<td align="center" bgcolor=#FFE6B3>P1</td>
+	<td align="center" bgcolor=#FFE6B3>WF24LTYAJDNN0#</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>-</td>
+	<td align="center" bgcolor=#E6F9FF>Winstar</td>
+	<td align="center" bgcolor=#E6F9FF>WF24LTYAJDNN0#</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">23</td>
+	<td align="center" bgcolor=#FFE6B3>Q1</td>
+	<td align="center" bgcolor=#FFE6B3>2N7002K</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">24</td>
+	<td align="center" bgcolor=#FFE6B3>R49 R50 R54 R55</td>
+	<td align="center" bgcolor=#FFE6B3>0</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C100044</td>
+	<td align="center" bgcolor=#E6F9FF>YAGEO</td>
+	<td align="center" bgcolor=#E6F9FF>RC0603FR-070RL</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">25</td>
+	<td align="center" bgcolor=#FFE6B3>R1</td>
+	<td align="center" bgcolor=#FFE6B3>5.1</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">26</td>
+	<td align="center" bgcolor=#FFE6B3>R19 R20 R51 R52</td>
+	<td align="center" bgcolor=#FFE6B3>27</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C217926</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC0270</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">27</td>
+	<td align="center" bgcolor=#FFE6B3>R6 R41 R42</td>
+	<td align="center" bgcolor=#FFE6B3>50</td>
+	<td align="center" bgcolor=#E6FFEE>3</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">28</td>
+	<td align="center" bgcolor=#FFE6B3>R4</td>
+	<td align="center" bgcolor=#FFE6B3>100</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">29</td>
+	<td align="center" bgcolor=#FFE6B3>R37 R38 R39 R40</td>
+	<td align="center" bgcolor=#FFE6B3>180</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C217827</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC1800</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">30</td>
+	<td align="center" bgcolor=#FFE6B3>R33 R34 R35 R36</td>
+	<td align="center" bgcolor=#FFE6B3>200</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C217868</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC2000</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">31</td>
+	<td align="center" bgcolor=#FFE6B3>R29 R30 R31 R32</td>
+	<td align="center" bgcolor=#FFE6B3>220</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C234383</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>AR03FTC2200</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">32</td>
+	<td align="center" bgcolor=#FFE6B3>R25 R26 R27 R28</td>
+	<td align="center" bgcolor=#FFE6B3>820</td>
+	<td align="center" bgcolor=#E6FFEE>4</td>
+	<td align="center" bgcolor=#E6F9FF>C218157</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC8200</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">33</td>
+	<td align="center" bgcolor=#FFE6B3>R43 R45</td>
+	<td align="center" bgcolor=#FFE6B3>4.7k</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#E6F9FF>C218056</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC4701</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">34</td>
+	<td align="center" bgcolor=#FFE6B3>R2 R3 R5 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18 R21 R22 R23 R24 R44 R46 R53 R56 R57</td>
+	<td align="center" bgcolor=#FFE6B3>10k</td>
+	<td align="center" bgcolor=#E6FFEE>24</td>
+	<td align="center" bgcolor=#E6F9FF>C217687</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC1002</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">35</td>
+	<td align="center" bgcolor=#FFE6B3>R48</td>
+	<td align="center" bgcolor=#FFE6B3>11k</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C217703</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC1102</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">36</td>
+	<td align="center" bgcolor=#FFE6B3>R47</td>
+	<td align="center" bgcolor=#FFE6B3>100k</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C217682</td>
+	<td align="center" bgcolor=#E6F9FF>Viking Tech</td>
+	<td align="center" bgcolor=#E6F9FF>ARG03FTC1003</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">37</td>
+	<td align="center" bgcolor=#FFE6B3>SW6 SW7 SW8</td>
+	<td align="center" bgcolor=#FFE6B3>GT-TC054A-H035-L1</td>
+	<td align="center" bgcolor=#E6FFEE>3</td>
+	<td align="center" bgcolor=#E6F9FF>C778158</td>
+	<td align="center" bgcolor=#E6F9FF>G-Switch</td>
+	<td align="center" bgcolor=#E6F9FF>GT-TC054A-H035-L1</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">38</td>
+	<td align="center" bgcolor=#FFE6B3>SW1 SW2 SW3 SW4 SW5</td>
+	<td align="center" bgcolor=#FFE6B3>K2-1156SP-F5SW-05</td>
+	<td align="center" bgcolor=#E6FFEE>5</td>
+	<td align="center" bgcolor=#E6F9FF>C223814</td>
+	<td align="center" bgcolor=#E6F9FF>Korean Hroparts Elec</td>
+	<td align="center" bgcolor=#E6F9FF>K2-1156SP-F5SW-05</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">39</td>
+	<td align="center" bgcolor=#FFE6B3>U9</td>
+	<td align="center" bgcolor=#FFE6B3>AXP2101</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C3036461</td>
+	<td align="center" bgcolor=#E6F9FF>X-POWERS</td>
+	<td align="center" bgcolor=#E6F9FF>AXP2101</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">40</td>
+	<td align="center" bgcolor=#FFE6B3>U1</td>
+	<td align="center" bgcolor=#FFE6B3>F133</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>-</td>
+	<td align="center" bgcolor=#E6F9FF>Allwinner</td>
+	<td align="center" bgcolor=#E6F9FF>F133-A</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">41</td>
+	<td align="center" bgcolor=#FFE6B3>U5 U6</td>
+	<td align="center" bgcolor=#FFE6B3>LM4562</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#E6F9FF>C57367</td>
+	<td align="center" bgcolor=#E6F9FF>Texas Instruments</td>
+	<td align="center" bgcolor=#E6F9FF>LM4562MAX/NOPB</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">42</td>
+	<td align="center" bgcolor=#FFE6B3>U3</td>
+	<td align="center" bgcolor=#FFE6B3>MX25L25645GM2I-08G</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C190799</td>
+	<td align="center" bgcolor=#E6F9FF>Macronix</td>
+	<td align="center" bgcolor=#E6F9FF>MX25L25645GM2I-08G</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">43</td>
+	<td align="center" bgcolor=#FFE6B3>U7 U8</td>
+	<td align="center" bgcolor=#FFE6B3>OPA1656</td>
+	<td align="center" bgcolor=#E6FFEE>2</td>
+	<td align="center" bgcolor=#E6F9FF>OPA1656IDR</td>
+	<td align="center" bgcolor=#E6F9FF>Texas Instruments</td>
+	<td align="center" bgcolor=#E6F9FF>OPA1656IDR</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">44</td>
+	<td align="center" bgcolor=#FFE6B3>U4</td>
+	<td align="center" bgcolor=#FFE6B3>PCM1795</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C2867563</td>
+	<td align="center" bgcolor=#E6F9FF>Texas Instruments</td>
+	<td align="center" bgcolor=#E6F9FF>PCM1795DBR</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">45</td>
+	<td align="center" bgcolor=#FFE6B3>U11</td>
+	<td align="center" bgcolor=#FFE6B3>SGM3204</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C194031</td>
+	<td align="center" bgcolor=#E6F9FF>SGMICRO</td>
+	<td align="center" bgcolor=#E6F9FF>SGM3204YN6G/TR</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">46</td>
+	<td align="center" bgcolor=#FFE6B3>U10</td>
+	<td align="center" bgcolor=#FFE6B3>SGM6603-ADJYN6G</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C79688</td>
+	<td align="center" bgcolor=#E6F9FF>SGMICRO</td>
+	<td align="center" bgcolor=#E6F9FF>SGM6603-ADJYN6G/TR</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+<tr>
+	<td align="center">47</td>
+	<td align="center" bgcolor=#FFE6B3>U2</td>
+	<td align="center" bgcolor=#FFE6B3>USBLC6-2SC6</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>C7519</td>
+	<td align="center" bgcolor=#E6F9FF>STMicroelectronics</td>
+	<td align="center" bgcolor=#E6F9FF>USBLC6-2SC6</td>
+	<td align="center" bgcolor=#E6F9FF>C7519</td>
+	<td align="center" bgcolor=#E6F9FF>USBLC6-2SC6</td>
+</tr>
+<tr>
+	<td align="center">48</td>
+	<td align="center" bgcolor=#FFE6B3>Y1</td>
+	<td align="center" bgcolor=#FFE6B3>12.88727</td>
+	<td align="center" bgcolor=#E6FFEE>1</td>
+	<td align="center" bgcolor=#E6F9FF>-</td>
+	<td align="center" bgcolor=#E6F9FF>Geyer Electronic</td>
+	<td align="center" bgcolor=#E6F9FF>12.88727</td>
+	<td align="center" bgcolor=#FF8080></td>
+	<td align="center" bgcolor=#FF8080></td>
+</tr>
+</table>
+<br><br>
+</body></html>

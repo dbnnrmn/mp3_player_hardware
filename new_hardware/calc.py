@@ -49,7 +49,7 @@ print("hello")
 ###################################
 
 Vfb=0.5
-R1=560000
+R1=100000
 Vout=5
 
 R2=(Vfb*R1)/(Vout-Vfb)
@@ -57,8 +57,9 @@ R2=rd(R2)
 R2=find_res(R2,"e24")
 
 Voutreal=Vfb*((R1+R2)/R2)
-print(R2)
-print(Voutreal)
+print('R1='+str(R1))
+print('R2='+str(R2))
+print('Voutreal='+str(Voutreal))
 
 
 ###################################

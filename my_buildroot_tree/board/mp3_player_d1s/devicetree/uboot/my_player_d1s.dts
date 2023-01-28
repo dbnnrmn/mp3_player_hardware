@@ -15,27 +15,13 @@
 	compatible = "allwinner,d1-nezha", "allwinner,sun20i-d1";
 
 	aliases {
-		ethernet0 = &emac;
-		mmc0 = &mmc0;
-		mmc1 = &mmc1;
-		mmc2 = &mmc2;
-		serial0 = &uart0;
+		serial2 = &uart2;
 		spi0 = &spi0;
 	};
 
 	chosen {
-		stdout-path = "serial0:115200n8";
+		stdout-path = "serial2:115200n8";
 	};
-	};
-
-	reg_usbvbus: usbvbus {
-		compatible = "regulator-fixed";
-		regulator-name = "usbvbus";
-		regulator-min-microvolt = <5000000>;
-		regulator-max-microvolt = <5000000>;
-		gpio = <&gpio 3 19 GPIO_ACTIVE_HIGH>; /* PD19 */
-		enable-active-high;
-		vin-supply = <&reg_vcc>;
 	};
 
 	reg_vcc: vcc {
@@ -53,51 +39,6 @@
 		vin-supply = <&reg_vcc>;
 	};
 
-	reg_vdd_cpu: vdd-cpu {
-		compatible = "pwm-regulator";
-		pwms = <&pwm 0 50000 0>;
-		pwm-supply = <&reg_vcc>;
-		regulator-name = "vdd-cpu";
-		regulator-min-microvolt = <810000>;
-		regulator-max-microvolt = <1160000>;
-	};
-};
-
-&codec {
-	allwinner,routing = "Headphone Jack", "HPOUTL",
-			    "Headphone Jack", "HPOUTR",
-			    "LINEINL", "HPOUTL",
-			    "LINEINR", "HPOUTR",
-			    "MICIN3", "Headset Microphone",
-			    "Headset Microphone", "HBIAS";
-	allwinner,widgets = "Microphone", "Headset Microphone",
-			    "Headphone", "Headphone Jack";
-	avcc-supply = <&reg_aldo>;
-	hpvcc-supply = <&reg_hpldo>;
-	vdd33-supply = <&reg_vcc_3v3>;
-	status = "okay";
-};
-
-&cpu0 {
-	cpu-supply = <&reg_vdd_cpu>;
-};
-
-&ehci0 {
-	status = "okay";
-};
-
-&ehci1 {
-	status = "okay";
-};
-
-&emac {
-	pinctrl-0 = <&rgmii_pe_pins>;
-	pinctrl-names = "default";
-	phy-handle = <&ext_rgmii_phy>;
-	phy-mode = "rgmii-id";
-	phy-supply = <&reg_vcc_3v3>;
-	snps,reset-gpio = <&gpio 4 16 GPIO_ACTIVE_LOW>; /* PE16 */
-	status = "okay";
 };
 
 &gpio {
@@ -109,14 +50,15 @@
 	vcc-pf-supply = <&reg_vcc_3v3>;
 	vcc-pg-supply = <&reg_vcc_3v3>;
 
+	
+	uart2_pe2_pins: uart2-pe2-pins {
+				pins = "PE2", "PE3";
+				function = "uart2";
+			};
+
 	i2s2_pb_pins: i2s2-pb-pins {
 		pins = "PB5", "PB6", "PB7";
 		function = "i2s2";
-	};
-
-	i2s2_pb3_din_pin: i2s2-pb3-din-pin {
-		pins = "PB3";
-		function = "i2s2_din";
 	};
 
 	i2s2_pb4_dout_pin: i2s2-pb4-dout-pin {
@@ -124,10 +66,10 @@
 		function = "i2s2_dout";
 	};
 
-	ledc_pc0_pin: ledc-pc0-pin {
-		pins = "PC0";
-		function = "ledc";
-	};
+	i2c0_pb2_pins: i2c0-pb2-pins {
+				pins = "PB2", "PB3";
+				function = "i2c0";
+			};
 
 	pwm0_pd16_pin: pwm0-pd16-pin {
 		pins = "PD16";
@@ -143,77 +85,21 @@
 		pins = "PD22";
 		function = "pwm";
 	};
-
-	spdif_pd22_pin: spdif-pd22-pin {
-		pins = "PD22";
-		function = "spdif";
-	};
 };
 
 &i2c0 {
-	pinctrl-0 = <&i2c0_pb10_pins>;
+	pinctrl-0 = <&i2c0_pb2_pins>;
 	pinctrl-names = "default";
 	status = "okay";
-};
-
-&i2c2 {
-	pinctrl-0 = <&i2c2_pb0_pins>;
-	pinctrl-names = "default";
-	status = "okay";
-
-	pcf8574a: gpio@38 {
-		compatible = "nxp,pcf8574a";
-		#address-cells = <0>;
-		reg = <0x38>;
-		gpio-controller;
-		#gpio-cells = <2>;
-		interrupts-extended = <&gpio 1 2 IRQ_TYPE_LEVEL_LOW>; /* PB2 */
-		interrupt-controller;
-		#interrupt-cells = <2>;
-	};
 };
 
 &i2s2 {
-	pinctrl-0 = <&i2s2_pb_pins>, <&i2s2_pb3_din_pin>, <&i2s2_pb4_dout_pin>;
+	pinctrl-0 = <&i2s2_pb_pins>, <&i2s2_pb4_dout_pin>;
 	pinctrl-names = "default";
 	status = "okay";
 };
 
-&ledc {
-	pinctrl-0 = <&ledc_pc0_pin>;
-	pinctrl-names = "default";
-	status = "okay";
 
-	led@0 {
-		reg = <0x0>;
-		color = <LED_COLOR_ID_RGB>;
-		function = LED_FUNCTION_INDICATOR;
-	};
-};
-
-&lradc {
-	vref-supply = <&reg_aldo>;
-	wakeup-source;
-	status = "okay";
-
-	button-160 {
-		label = "OK";
-		linux,code = <KEY_OK>;
-		channel = <0>;
-		voltage = <160000>;
-	};
-};
-};
-
-&mmc0 {
-	bus-width = <4>;
-	cd-gpios = <&gpio 5 6 GPIO_ACTIVE_HIGH>; /* PF6 */
-	disable-wp;
-	vmmc-supply = <&reg_vcc_3v3>;
-	vqmmc-supply = <&reg_vcc_3v3>;
-	pinctrl-0 = <&mmc0_pins>;
-	pinctrl-names = "default";
-	status = "okay";
 };
 
 };
@@ -288,38 +174,32 @@
 	};
 };
 
-&spi1 {
+
+&i2c0 {
 	pinctrl-0 = <&spi1_pd_pins>;
 	pinctrl-names = "default";
 	status = "okay";
 };
 
+&mmc0 {
+	bus-width = <4>;
+	cd-gpios = <&gpio 5 6 GPIO_ACTIVE_HIGH>; /* PF6 */
+	disable-wp;
+	vmmc-supply = <&reg_vcc_3v3>;
+	vqmmc-supply = <&reg_vcc_3v3>;
+	pinctrl-0 = <&mmc0_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+
 &ths {
 	vref-supply = <&reg_aldo>;
 };
 
-&uart0 {
-	pinctrl-0 = <&uart0_pb8_pins>;
+&uart2 {
+	pinctrl-0 = <&uart2-pe2-pins>;
 	pinctrl-names = "default";
-	status = "okay";
-};
-
-&uart1 {
-	pinctrl-0 = <&uart1_pg6_pins>, <&uart1_pg8_rts_cts_pins>;
-	pinctrl-names = "default";
-	status = "okay";
-
-	bluetooth {
-		compatible = "xradio,xr829-bt";
-		device-wakeup-gpios = <&gpio 6 16 GPIO_ACTIVE_LOW>; /* PG16 */
-		interrupts-extended = <&gpio 6 17 IRQ_TYPE_LEVEL_LOW>; /* PG17 */
-		interrupt-names = "wakeup";
-		reset-gpios = <&gpio 6 18 GPIO_ACTIVE_LOW>; /* PG18 */
-	};
-};
-
-&usb_otg {
-	dr_mode = "otg";
 	status = "okay";
 };
 

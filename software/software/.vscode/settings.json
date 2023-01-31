@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "asoundlib.h": "c",
+        "input.h": "c",
+        "pthread.h": "c",
+        "fcntl.h": "c",
+        "opt.h": "c",
+        "avio.h": "c",
+        "dict.h": "c",
+        "player.h": "c",
+        "avformat.h": "c",
+        "semaphore.h": "c",
+        "trash": "c",
+        "features.h": "c",
+        "errno.h": "c"
+    }
+}

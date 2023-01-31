@@ -1,0 +1,8 @@
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/CMakeFiles/edit_cache.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/CMakeFiles/rebuild_cache.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/src/CMakeFiles/mp3player.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/src/CMakeFiles/edit_cache.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/src/CMakeFiles/rebuild_cache.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/src/player/CMakeFiles/player.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/src/player/CMakeFiles/edit_cache.dir
+/home/roman/Рабочий стол/mp3_test_board/software/software/build/src/player/CMakeFiles/rebuild_cache.dir

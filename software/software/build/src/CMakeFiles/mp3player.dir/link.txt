@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic CMakeFiles/mp3player.dir/main.c.o -o ../../bin/mp3player  player/libplayer.a -lasound -lm -lavformat -lavcodec -lavutil 

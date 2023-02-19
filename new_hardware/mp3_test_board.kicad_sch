@@ -14,6 +14,10 @@
     (uuid 99a25315-4acc-4b83-9f69-c3672e40e75d)
   )
 
+  (wire (pts (xy 130.81 49.53) (xy 130.81 55.88))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 00a00c2c-d4cf-4e2d-881b-1d17d3009722)
+  )
   (wire (pts (xy 81.28 91.44) (xy 95.25 91.44))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 024b534e-2f19-4631-bef2-3fe98a5ca25c)
@@ -70,7 +74,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 52b08902-8fa1-4f60-81ca-bde919791b53)
   )
-  (wire (pts (xy 130.81 49.53) (xy 130.81 55.88))
+  (wire (pts (xy 135.89 49.53) (xy 135.89 55.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 536d8875-1279-4100-9040-8a44cead1342)
   )
@@ -237,7 +241,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 99f9d26b-b9a9-4d91-b348-3ed04d725929)
     )
-    (pin "WIFI_SDIO_CMD" bidirectional (at 130.81 55.88 90)
+    (pin "WIFI_SDIO_CMD" bidirectional (at 135.89 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5e38c5f6-ac6e-4e8b-9778-8895a7a9f57d)
     )
@@ -260,6 +264,10 @@
     (pin "WIFI_SDIO_D1" bidirectional (at 140.97 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid afa78813-dd20-49b6-9149-8d8ac663e999)
+    )
+    (pin "WIFI_REG_ON" bidirectional (at 130.81 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid e4707616-72fa-4d2a-be57-6fbeaba9eefa)
     )
   )
 
@@ -349,7 +357,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 18aacb9e-0c1d-4290-b23f-64a07b82188f)
     )
-    (pin "WIFI_SDIO_CMD" bidirectional (at 130.81 49.53 270)
+    (pin "WIFI_SDIO_CMD" bidirectional (at 135.89 49.53 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 01ed1f28-98c7-49bc-80af-851249a9642b)
     )
@@ -364,6 +372,10 @@
     (pin "WIFI_SDIO_D3" bidirectional (at 146.05 49.53 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c27dba63-3aac-4cbd-aecd-19ca8f68184f)
+    )
+    (pin "WIFI_REG_ON" bidirectional (at 130.81 49.53 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1b3e6776-b0f8-4ca2-aa45-7f29ce75ab0f)
     )
   )
 
@@ -466,11 +478,20 @@
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/a1553f1e-1b3a-4cda-9c51-9914c0f2fba0"
       (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/5145b50a-dd7c-4bef-800e-7866dda6b6b2"
+      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
+    )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/c8b4dc99-62f8-40b8-939a-136c545bcb51"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/fdae2ec5-3977-46da-83b9-14f14082f6bb"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/d5da21dc-c508-464b-ad08-aafa84559b5b"
+      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/b95f9795-080f-4599-8456-17525e8ad7dd"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/a0744d59-4ee1-4d0e-afc4-b289ed151b0c"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
@@ -492,6 +513,9 @@
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/718593fe-f559-4a22-89c9-e6c7dc7d90b8"
       (reference "#PWR042") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/08962e15-4224-4401-bcbf-d29d78eddeb8"
+      (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/fa89a5a2-7f85-48bb-a4c8-4c8c8b5ba6b8"
       (reference "#PWR044") (unit 1) (value "+3V3") (footprint "")
@@ -796,9 +820,6 @@
     (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/911fe08e-1c5c-4651-8030-373da93fd6dc"
       (reference "#PWR0145") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/5145b50a-dd7c-4bef-800e-7866dda6b6b2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/e968bfe4-ae20-4952-9243-0ed30127e608"
       (reference "C1") (unit 1) (value "100n") (footprint "rlib_passive:C_0603_1608Metric")
     )
@@ -1023,6 +1044,12 @@
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/c269ccf5-ea3e-4745-93d3-163991b4ff48"
       (reference "C75") (unit 1) (value "10u") (footprint "rlib_passive:C_0603_1608Metric")
+    )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/de966aa7-aa92-4844-b179-17a3eaa326c3"
+      (reference "C76") (unit 1) (value "18p") (footprint "rlib_passive:C_0603_1608Metric")
+    )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/d5f28431-92af-44ac-8a69-35e71f4437d8"
+      (reference "C77") (unit 1) (value "18p") (footprint "rlib_passive:C_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/c7d3782f-411c-4636-8559-fbb9d4580864"
       (reference "D1") (unit 1) (value "PESD3V3L1BA") (footprint "rlib_passive:D_SOD-323F")
@@ -1322,7 +1349,7 @@
       (reference "R65") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/2f8622ce-2d00-43ac-9250-5e439ea80ed6"
-      (reference "RF?") (unit 1) (value "BWIPX-1-001E") (footprint "rlib_connectors:IPEX-SMD_BWIPX-1-001E")
+      (reference "RF1") (unit 1) (value "BWIPX-1-001E") (footprint "rlib_connectors:IPEX-SMD_BWIPX-1-001E")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/1056e97f-1b11-45e8-af12-b3d441c2b63a"
       (reference "SW1") (unit 1) (value "K2-1156SP-F5SW-05") (footprint "rlib_buttons:K2-1156SP-F5SW-05")
@@ -1417,6 +1444,12 @@
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/dadfe66f-3675-4854-ad75-6d5a0e5189d4"
       (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/dc65fb21-af5c-4f12-b68e-49b3c1469cee"
+      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/d881ad36-8e04-4b9c-b3ab-72d6a46cb9d0"
+      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/13de2545-793e-4bc2-aed9-627dbd3bee7d"
       (reference "U1") (unit 1) (value "F133") (footprint "rlib_ic:LQFP-128_14x14mm_P0.4mm")
     )
@@ -1473,6 +1506,9 @@
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/5677b6b5-0a53-406f-b200-3daa057fbebb"
       (reference "Y1") (unit 1) (value "12.88727") (footprint "rlib_passive:12.88727")
+    )
+    (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/441f5945-14dc-494e-bafe-7c2652c02e34"
+      (reference "Y2") (unit 1) (value "26МHz") (footprint "rlib_passive:CRYSTAL-SMD_4P-L1.6-W1.2-BL")
     )
   )
 )

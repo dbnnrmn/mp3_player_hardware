@@ -1,2 +1,8 @@
 (fp_lib_table
+  (lib (name "rlib_power")(type "KiCad")(uri "${RLIB}/power/rlib_power.pretty")(options "")(descr ""))
+  (lib (name "rlib_connectors")(type "KiCad")(uri "${RLIB}/connectors/rlib_connectors.pretty")(options "")(descr ""))
+  (lib (name "rlib_modules")(type "KiCad")(uri "${RLIB}/modules/rlib_modules.pretty")(options "")(descr ""))
+  (lib (name "rlib_passive")(type "KiCad")(uri "${RLIB}/passive/rlib_passive.pretty")(options "")(descr ""))
+  (lib (name "rlib_lcd")(type "KiCad")(uri "${RLIB}/lcd/rlib_lcd.pretty")(options "")(descr ""))
+  (lib (name "rlib_buttons")(type "KiCad")(uri "${RLIB}/buttons/rlib_buttons.pretty")(options "")(descr ""))
 )

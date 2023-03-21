@@ -1109,16 +1109,16 @@
       (reference "FB3") (unit 1) (value "FerriteBead") (footprint "rlib_passive:INDC2520X120N")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/364a886f-f86e-44f1-a3bc-53fbefd7de6b"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_Via")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "rlib_misc:MountingHole_2.5mm_Pad_Via")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/62de0b94-831b-465c-9da0-96658a999338"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_Via")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "rlib_misc:MountingHole_2.5mm_Pad_Via")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/d7fcb477-18f2-4fc7-9c15-2d915f58bd4e"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_Via")
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "rlib_misc:MountingHole_2.5mm_Pad_Via")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/fcc6d4b2-c1e9-470a-af26-798b5f871e58"
-      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_Via")
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "rlib_misc:MountingHole_2.5mm_Pad_Via")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/faf7d44f-9fad-4a72-a9a8-fd4508e87bd6"
       (reference "J1") (unit 1) (value "TF01-A") (footprint "rlib_connectors:TF-01A")
@@ -1376,79 +1376,79 @@
       (reference "SW8") (unit 1) (value "GT-TC054A-H035-L1") (footprint "rlib_buttons:GT-TC054A-H035-L1")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/5b7e5021-06f5-46f2-aaef-91186689b5ce"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/c7e8dfa2-c03b-4e68-814c-2d4cf5fb900d"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/d892ae60-7f52-4624-a052-afee626943f9"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/cf151e1c-f2bd-4ed2-818b-584f61af4042"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/bf7a54a8-fbdc-47f3-a534-4044d7c5d136"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/4ffe23d9-f674-48ac-954c-a9686c3ced8a"
-      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/3dd538d4-7a00-46c3-8d1b-d500a3dce20b"
-      (reference "TP7") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP7") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/cfe72f1f-0964-4224-82ff-b578d59fb00b"
-      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP8") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/87697340-8221-4d5f-838b-86a1f3765b26"
-      (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP9") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/f3431f0e-4c01-4f36-8dc7-9eebda50cbca"
-      (reference "TP10") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP10") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/a7f3a652-6b63-4684-9789-d014b706f3f0"
-      (reference "TP11") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP11") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/9a2de1ec-d0bd-4138-a498-ede4a6642b1c"
-      (reference "TP12") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP12") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/a43dab1c-1a47-4579-8d07-3d8b80400440"
-      (reference "TP13") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP13") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/4645259b-9048-4fd0-bf21-be74fbf09e92"
-      (reference "TP14") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP14") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/a7618047-045c-4f3b-a53d-6648a43ed7d2"
-      (reference "TP15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP15") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/b3679ca0-f594-4cbf-9f5b-bf0238fb4dfd"
-      (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP16") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/ffe77589-ae08-4b18-b623-3154b530feba"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/35589720-86de-46c9-8d2c-f7c01dcc1f55"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP18") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/865c84e5-48ff-4c8f-ab08-70f1ac1a276e"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP19") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/4ef79e91-4ba3-4be9-84ff-fea5061d38e8"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP20") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/81e1d4a4-bcea-4897-ae83-b2d01d6f7b47"
-      (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP21") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/947a0c2e-8f68-464d-b001-dac0a33ad17c"
-      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP22") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/dadfe66f-3675-4854-ad75-6d5a0e5189d4"
-      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP23") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/dc65fb21-af5c-4f12-b68e-49b3c1469cee"
-      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP24") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/d881ad36-8e04-4b9c-b3ab-72d6a46cb9d0"
-      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP25") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/13de2545-793e-4bc2-aed9-627dbd3bee7d"
       (reference "U1") (unit 1) (value "F133") (footprint "rlib_ic:LQFP-128_14x14mm_P0.4mm")

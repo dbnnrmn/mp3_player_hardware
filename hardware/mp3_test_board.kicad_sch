@@ -1120,13 +1120,16 @@
       (reference "F2") (unit 1) (value "500mA") (footprint "")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/360ee90a-b446-46d6-827b-53b8fc2bd2ac"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "rlib_passive:INDC2520X120N")
+      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "rlib_passive:C_0805_2012Metric")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/606fa0cb-7b90-4c91-88e4-d48de52b665e"
-      (reference "FB2") (unit 1) (value "FerriteBead") (footprint "")
+      (reference "FB2") (unit 1) (value "FerriteBead") (footprint "rlib_passive:C_0805_2012Metric")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/3ce4c3cc-c108-4b3a-a781-6acb17590de9"
-      (reference "FB3") (unit 1) (value "FerriteBead") (footprint "")
+      (reference "FB3") (unit 1) (value "FerriteBead") (footprint "rlib_passive:C_0805_2012Metric")
+    )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/b493f002-a7a1-41d3-8c42-1d4e7bc5289b"
+      (reference "FB4") (unit 1) (value "FerriteBead") (footprint "rlib_passive:C_0805_2012Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/364a886f-f86e-44f1-a3bc-53fbefd7de6b"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "rlib_misc:MountingHole_2.5mm_Pad_Via")

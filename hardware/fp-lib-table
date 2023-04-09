@@ -5,4 +5,5 @@
   (lib (name "rlib_passive")(type "KiCad")(uri "${RLIB}/passive/rlib_passive.pretty")(options "")(descr ""))
   (lib (name "rlib_lcd")(type "KiCad")(uri "${RLIB}/lcd/rlib_lcd.pretty")(options "")(descr ""))
   (lib (name "rlib_buttons")(type "KiCad")(uri "${RLIB}/buttons/rlib_buttons.pretty")(options "")(descr ""))
+  (lib (name "rlib_ic")(type "KiCad")(uri "${RLIB}/ic/rlib_ic.pretty")(options "")(descr ""))
 )

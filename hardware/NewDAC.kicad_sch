@@ -6769,7 +6769,7 @@
     (property "Reference" "C31" (id 0) (at 86.36 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (id 1) (at 86.36 83.82 0)
+    (property "Value" "" (id 1) (at 86.36 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "rlib_passive:T491A106K010AT" (id 2) (at 83.5152 87.63 0)

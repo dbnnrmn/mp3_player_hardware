@@ -456,9 +456,6 @@
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/6b238803-cef6-4321-ba88-b47641e19a28"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/c8c2e522-1315-4fb8-ab95-9e59e2a7ea92"
-      (reference "#PWR017") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/fc6db73f-247f-406f-b88c-e4dced9ceea4"
       (reference "#PWR018") (unit 1) (value "VBUS") (footprint "")
     )
@@ -834,6 +831,9 @@
     (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/b25a9ce2-d97f-4be3-aec3-9ed8c3393914"
       (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
     )
+    (path "/494fd4b1-1de7-49fe-827f-914491efe850/2e43553a-931b-4c37-a523-60cfe65aca5b"
+      (reference "#PWR0143") (unit 1) (value "+1V8A") (footprint "")
+    )
     (path "/aa3ce668-54ef-4a1c-908c-ffe0f988f256/7651af2d-ff06-4b1f-b603-f2e8f8dae92c"
       (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
     )
@@ -931,7 +931,7 @@
       (reference "C30") (unit 1) (value "10u") (footprint "rlib_passive:T491A106K010AT")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/fda4e3d7-fda7-4145-8880-77ba0d7fc468"
-      (reference "C31") (unit 1) (value "10u") (footprint "rlib_passive:T491A106K010AT")
+      (reference "C31") (unit 1) (value "47u") (footprint "rlib_passive:T491A106K010AT")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/d6c77e92-7483-493f-8fe1-2b245f4a3ec4"
       (reference "C32") (unit 1) (value "100n") (footprint "rlib_passive:C_0603_1608Metric")
@@ -1192,7 +1192,7 @@
       (reference "R5") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/ab3389f6-1fa4-43ed-9c43-13d671d34f72"
-      (reference "R6") (unit 1) (value "100") (footprint "rlib_passive:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "50") (footprint "rlib_passive:R_0603_1608Metric")
     )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/1fa0d596-a558-42ed-9b47-7b46468a1c18"
       (reference "R7") (unit 1) (value "10k") (footprint "rlib_passive:R_0603_1608Metric")
@@ -1413,9 +1413,6 @@
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/4ffe23d9-f674-48ac-954c-a9686c3ced8a"
       (reference "TP6") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
-    (path "/494fd4b1-1de7-49fe-827f-914491efe850/3dd538d4-7a00-46c3-8d1b-d500a3dce20b"
-      (reference "TP7") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
-    )
     (path "/494fd4b1-1de7-49fe-827f-914491efe850/cfe72f1f-0964-4224-82ff-b578d59fb00b"
       (reference "TP8") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
@@ -1444,7 +1441,7 @@
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/884771b3-a958-42f5-9d43-01d94fb8bdd5/ffe77589-ae08-4b18-b623-3154b530feba"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
     )
     (path "/8a184ff4-f009-4368-ae0f-59dfbdc06c07/35589720-86de-46c9-8d2c-f7c01dcc1f55"
       (reference "TP18") (unit 1) (value "TestPoint") (footprint "rlib_misc:TestPoint_Pad_D1.0mm")
